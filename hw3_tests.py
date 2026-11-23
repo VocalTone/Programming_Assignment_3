@@ -316,7 +316,7 @@ class TestCases(unittest.TestCase):
             reduced_data, 'Hispanic or Latino', 5
         )
         self.assertEqual(
-            [c.county for c in result], ['Autauga County']
+            [c.county for c in result], ['Autauga County', 'Weston County']
         )
 
     def test_ethnicity_less_than_equal(self):
